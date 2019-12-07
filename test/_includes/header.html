@@ -1,15 +1,21 @@
-{%- comment -%}
-  Include vars:
-  scrolly_nav
-{%- endcomment -%}
+<header class="bar-header">
+    <a id="menu" role="button">
+        <svg id="open" class="icon-menu"><use xlink:href="#icon-menu"></use></svg>
+    </a>
+    <h1 class="logo">
+        <a href="{{ site.baseurl }}/">
+            {{ site.name }} <span class="version">v2.0.0</span>
+        </a>
+    </h1>
+    <a id="search" class="dosearch" role="button">
+        <svg class="icon-search"><use xlink:href="#icon-search"></use></svg>
+    </a>
+    <a href="https://github.com/thiagorossener/jekflix-template" class="get-theme" role="button">
+        Get this theme!
+    </a>
+</header>
 
-<!-- Header -->
-<div id="header">
-  <div class="top">
-    {%- include logo.html -%}
-    {%- include nav.html section_items=include.scrolly_nav -%}
-  </div>
-  <div class="bottom">
-    {%- include social_icons.html -%}
-  </div>
-</div>
+<div id="mask" class="overlay"></div>
+
+{% include menu.html %}
+{% include search.html %}
