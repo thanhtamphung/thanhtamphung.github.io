@@ -1,8 +1,8 @@
 title: NoteTheme
 description: You cannot remember everything.
-baseurl: "/notetheme"
-url: ""
-repository: dinhanhthi/notetheme
+baseurl: "/test1"
+url: "thanhtamphung.github.io"
+#repository: dinhanhthi/notetheme
 paginate: 28
 
 banner: "/assets/res/banner.png" # site banner (load when someone share your page url)
@@ -14,7 +14,7 @@ user:
   email: "dinhanhthimail@gmail.com"
   website: "math2it.com"
   avatar: "/assets/res/user.png"
-  github: "dinhanhthi"
+  github: "thanhtamphung"
 google_tracking_id: ""
 google_site_verification: ""
 disqus_shortname: this-site
